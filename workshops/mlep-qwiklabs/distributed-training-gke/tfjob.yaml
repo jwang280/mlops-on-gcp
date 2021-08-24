@@ -26,7 +26,7 @@ spec:
         spec:
           containers:
             - name: tensorflow
-              image: mnist
+              image: gcr.io/qwiklabs-gcp-04-4516d6350d17/mnist-train
               args:
                 - --epochs=5
                 - --steps_per_epoch=100
